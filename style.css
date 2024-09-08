@@ -1,0 +1,106 @@
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+  --paragraph: 0.875rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1044px;
+  width: 100%;
+  background-color: var(--Grey-900);
+  flex-direction: column;
+  gap: 10px;
+}
+.card {
+  width: 24rem;
+  height: 38.25rem;
+  background-color: var(--Grey-800);
+  border-radius: 15px;
+  text-align: center;
+  padding: 2.1875rem;
+  color: var(--White);
+}
+@media screen and (max-width: 550px) {
+  .card {
+    width: 20.25rem;
+    height: 36.375rem;
+    padding: 1.5rem;
+  }
+}
+img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+.name {
+  font-size: 1.5em;
+  margin-block: 0.83em;
+  font-weight: 700;
+}
+.address {
+  font-size: var(--paragraph);
+  color: var(--Green);
+  margin-block-start: 1em;
+  margin-block-end: 1.6em;
+  font-weight: 400;
+}
+.job {
+  font-size: var(--paragraph);
+  margin-block-end: 1.6em;
+  font-weight: 400;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.btn {
+  background-color: var(--Grey-700);
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  width: 18.75rem;
+  height: 2.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--White);
+}
+.btn:hover {
+  background-color: var(--Green);
+  color: var(--Grey-800);
+}
+.btn:visited {
+    background-color: var(--Green);
+    color: var(--Grey-800);
+  }
+@media screen and (max-width: 550px) {
+  .btn {
+    width: 17.5rem;
+  }
+  .links {
+    gap: 1rem;
+  }
+}
+.attribution {
+  color: var(--White);
+}
+.mention:link {
+  text-decoration: none;
+  color: var(--Green);
+}
+.mention:visited {
+  color: var(--Green);
+}
