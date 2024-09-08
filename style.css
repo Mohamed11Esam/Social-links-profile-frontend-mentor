@@ -78,6 +78,10 @@ img {
   cursor: pointer;
   color: var(--White);
 }
+.btn:visited {
+    background-color: var(--Green);
+    color: var(--Grey-800);
+  }
 .btn:hover {
   background-color: var(--Green);
   color: var(--Grey-800);
