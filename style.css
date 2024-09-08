@@ -51,8 +51,8 @@ img {
 .address {
   font-size: var(--paragraph);
   color: var(--Green);
-  margin-block-start: 1.6em;
-  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1.6em;
   font-weight: 400;
 }
 .job {
@@ -67,7 +67,7 @@ img {
 }
 .btn {
   background-color: var(--Grey-700);
-  font-weight: 600;
+  font-weight: 400;
   border: none;
   border-radius: 10px;
   width: 18.75rem;
